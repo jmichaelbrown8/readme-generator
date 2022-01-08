@@ -1,30 +1,39 @@
 module.exports = {
-    generateReadme: ({ 
-        github,
-        email,
-        projName, 
-        projDesc, 
-        prereq, 
-        install,
-        usage,
-        contributing,
-        tests,
-        license
-    }) => 
+    generateReadme: ({
+            github,
+            email,
+            projName,
+            projDesc,
+            prereq,
+            install,
+            usage,
+            contributing,
+            tests,
+            license,
+        }) =>
+        
 `# ${projName}
 
-${projDesc}
-
 ##### Table of Contents
-${prereq ? '* [Prerequisites](#prerequisites)' : ''}
-${install ? '* [Installation](#installation)' : ''}
+${projDesc ? "* [Description](#description)" : ""}
+${prereq ? "* [Prerequisites](#prerequisites)" : ""}
+${install ? "* [Installation](#installation)" : ""}
+${usage ? "* [Usage](#usage)" : ""}
+${tests ? "* [Tests](#tests)" : ""}
+${contributing ? "* [Contributing](#contributing)" : ""}
+${github || email ? "* [Questions](#questions)" : ""}
+${license ? "* [License](#license)" : ""}
 
-${prereq ? '## Prerequisites' : ''}
-${prereq ? prereq.split(',').reduce((x, y) => `${x}* ${y}\n`, '') : ''}
+${projDesc ? `## Description` : ''}
 
-${install ? '## Installation' : ''}
+${ prereq ? `## Prerequisites` : "" }
+${ prereq ? prereq.split(",").reduce((x, y) => `${x}* ${y}\n`, '') : "" }
 
-
-
-`
+${install ? "## Installation" : ""}
+${usage ? "## Usage" : ""}
+${tests ? "## Tests" : ""}
+${contributing ? "## Contributing" : ""}
+${github || email ? "## Questions" : ""}
+${license ? "## License" : ""}
+`,
 };
