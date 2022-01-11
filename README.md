@@ -1,20 +1,43 @@
-# 🖨 readme-generator
+# readme-generator
 
-This is a command-line node script to generate a rich README.md for your next project.
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+
+
+##### Table of Contents
+* [Description](#description)
+* [Prerequisites](#prerequisites)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Tests](#tests)
+* [Contributing](#contributing)
+* [Questions](#questions)
+* [License](#license)
+
+## Description
+A node.js command-line script to help you create a README.md and LICENSE for your next project.
 
 ## Prerequisites
-
 * node.js
+*  npm
+
+
 ## Installation
+Run `npm install`
 
-Clone the code locally and run `npm install`
+## Usage
+Run `node index.js`, answer the questions, then copy the README.md and LICENSE from the `./build/` folder.
 
-## Run
+## Tests
+There are currently no tests--could be a great way to contribute to the project!
 
-Run `node index.js` and answer the prompts to generate a README.md
+## Contributing
+Fork the code, create a feature branch, then submit a pull request to the main repository.
 
-![Screenshot](./screenshot.png)
+## Questions
+Github: https://github.com/jmichaelbrown8
+Reach out to jmichaelbrown8@gmail.com with any additional questions.
 
-## Libraries
-
-* inquirer
+## License
+This application is covered by [MIT](./LICENSE)
