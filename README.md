@@ -13,6 +13,8 @@ Clone the code locally and run `npm install`
 
 Run `node index.js` and answer the prompts to generate a README.md
 
+![Screenshot](./screenshot.png)
+
 ## Libraries
 
 * inquirer

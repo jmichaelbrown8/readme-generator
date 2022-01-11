@@ -48,7 +48,8 @@ ${contributing ? "## Contributing" : ""}
 ${contributing}
 
 ${github || email ? "## Questions" : ""}
-${github || email ? `Reach out to ${github || email}` : ""}
+${github ? `Github: https://github.com/${github}` : ""}
+${email ? `Reach out to ${email} with any additional questions.` : ""}
 
 ${license !== 'No License' ? "## License" : ""}
 ${license !== 'No License' ? `This application is covered by [${license}](./LICENSE)` : ''}
