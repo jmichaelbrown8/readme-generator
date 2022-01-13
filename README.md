@@ -33,10 +33,11 @@ Run `node index.js`, answer the questions, then copy the README.md and LICENSE f
 There are currently no tests--could be a great way to contribute to the project!
 
 ## Contributing
-Fork the code, create a feature branch, then submit a pull request to the main repository.
+There are currently no tests--could be a great way to contribute to the project!
 
 ## Questions
 Github: https://github.com/jmichaelbrown8
+
 Reach out to jmichaelbrown8@gmail.com with any additional questions.
 
 ## License
