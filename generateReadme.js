@@ -48,7 +48,7 @@ ${contributing ? "## Contributing" : ""}
 ${contributing}
 
 ${github || email ? "## Questions" : ""}
-${github ? `Github: https://github.com/${github}` : ""}
+${github ? `Github: https://github.com/${github}\n` : ""}
 ${email ? `Reach out to ${email} with any additional questions.` : ""}
 
 ${license !== 'No License' ? "## License" : ""}
